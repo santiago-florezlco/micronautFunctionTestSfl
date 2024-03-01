@@ -3,7 +3,7 @@ plugins {
     id("com.microsoft.azure.azurefunctions") version "1.15.0"
 }
 
-version = "0.1"
+version = "0.2"
 group = "com.example"
 
 repositories {

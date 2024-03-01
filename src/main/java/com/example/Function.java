@@ -24,6 +24,7 @@ public class Function extends AzureHttpFunction {
                 authLevel = AuthorizationLevel.ANONYMOUS)
                 HttpRequestMessage<Optional<String>> request,
                 final ExecutionContext context) {
+                    context.getLogger().info("My app setting value: "+ System.getenv("function.json"));
         return super.route(request, context);
     }
 }

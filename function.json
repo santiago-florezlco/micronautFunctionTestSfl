@@ -1,0 +1,15 @@
+{
+    "bindings": [
+      {
+        "type": "httpTrigger",
+        "direction": "in",
+        "route": "orders",
+        "authLevel": "anonymous"
+      },
+    {
+        "name": "micronautFunctionTestSfl",
+        "type": "http",
+        "direction": "out"
+    }
+    ]
+  }
